@@ -155,9 +155,21 @@ a {
 }
 
 .clients .row-images {
+    align-items: center;
     margin-top: 70px;
 }
 
+.clients .images {
+    display: flex;
+    align-items: center;
+    padding: 0 42px;
+    height: 90px;
+    border-radius: 12px;
+}
+
+.clients .images:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
 /* Guides */
 .guides {
     margin-top: 11px;
