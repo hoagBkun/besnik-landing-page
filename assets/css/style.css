@@ -583,14 +583,22 @@ a {
     margin-top: 40px;
 }
 
-.footer .socials .icon {
-    padding: 9px;
-    margin-right: 11px;
+.footer .socials-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 3px;
     background: #f9f9f9;
 }
 
-.footer .socials .icon:hover {
-    opacity: 0.9;
+.socials-link + .socials-link {
+    margin-right: 16px;
+}
+
+.footer .socials-link:hover {
+    opacity: 0.8;
 }
 
 .footer .row-bottom {
